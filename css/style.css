@@ -1,3 +1,10 @@
 /*
  * Write your own styles in this file
  */
+
+ .container [class^="col"]{
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: rgba(0, 0, 0, 0.15);
+    border: 1 solid rgba(0, 0, 0, 0.3);
+ }
